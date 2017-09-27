@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body,html,.box{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background: #838c9b;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: #393a3e;
+    color: #fff;
+    align-items: center;
+    font-size: 16px;
+}
+header span{
+    flex:1;
+    text-align: center;
+}
+header .top{
+    flex:8;
+    text-align: left;
+}
+section{
+    flex:1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.main{
+    width: 80%;
+    height: 360px;
+    background: #fff;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.logo{
+    margin-top: 30px;
+}
+.tit{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #434544;
+}
+.number,.password{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #ccc;
+}
+.number img,.password img{
+    width: 14px;
+    height: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+.number input,.password input{
+    margin-bottom: 10px;
+    border:none;
+   outline: none;
+}
+.btn{
+    width: 90%;
+    height: 30px;
+    background: #2fba77;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
